@@ -1,0 +1,38 @@
+mat-card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  mat-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  mat-card a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #7b1fa2;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  mat-card a:hover {
+    background-color: #7b1fa2;
+  }
+  

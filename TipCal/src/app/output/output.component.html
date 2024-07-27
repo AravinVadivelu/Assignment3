@@ -1,1 +1,10 @@
-<p>output works!</p>
+<mat-card *ngIf="tipData">
+    <h3> Here is your bill:</h3>
+    <p>Cost of Service: {{ tipData.cost }}</p>
+    <p>Service Quality: {{ tipData.quality }}%</p>
+    <p>Round Up Tip: {{ tipData.roundUp ? 'Yes' : 'No' }}</p>
+    <p>Calculated Tip: {{ tip }}</p>
+    <p>Total Bill: {{ total }}</p>
+    <a routerLink="/input">Go back</a>
+  </mat-card>
+  

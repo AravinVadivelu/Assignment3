@@ -1,0 +1,39 @@
+.purple-theme-card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f3e5f5; /* Light purple background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .service-quality mat-label {
+    font-size: 18px;
+    color: #7b1fa2; /* Dark purple */
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  mat-radio-button {
+    margin-right: 20px;
+  }
+  
+  mat-checkbox {
+    margin-top: 20px;
+    color: #7b1fa2; /* Dark purple */
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #7b1fa2; /* Dark purple button */
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #6a1b9a; /* Slightly darker on hover */
+  }
+  
